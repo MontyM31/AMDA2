@@ -28,12 +28,17 @@ body{
     border-radius: 30px;
    }
 
+ 
+
    #side_nav{
-    background: #e2cee5;
-    min-width: 250px;
+    background: #e2cee59e;
+    min-width: 2rgba(226, 206, 229, 0.646);
     max-width: 250px;
     transition: all 0.3s;
    }
+
+
+
    .content{
       min-height: 100vh;
       width: 100%;
@@ -41,10 +46,16 @@ body{
    hr.h-color{
      background: #eee;
    }
+  
+   .sidebar li.active :hover{
+    box-shadow:0 30px 18px -8px rgba(0,0,0,0.1)!important;
+        transform:scale(1.10,1.10)!important
+    }
    
    .sidebar li.active :hover{
       background: #eee;
       border-radius: 8px;
+      /*border-radius: 30px;*/
    }
    
    .sidebar li.active a, .sidebar li.active a:hover {
