@@ -1,0 +1,15 @@
+.buscador{
+    border-color: #660e80;
+    border-radius: 100px;
+    color: #000;
+}
+
+.BtnBuscador{
+    border-color: #660e80;
+    border-radius: 20px;
+    color: #000;
+}
+
+.btn-outline-success:hover{
+    background-color: #660e80;
+}

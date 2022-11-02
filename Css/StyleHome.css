@@ -19,20 +19,6 @@ body{
     width: 175px;
     
    }
-   .buscar{
-    position: relative;
-    padding: 5px;
-   }
-   .buscar input{
-    width: 240px;
-    height: 40px;
-    padding: 0 20px;
-    font-size: 18px;
-    color: #000;
-    outline: none;
-    border: 1px solid silver;
-    border-radius: 30px;
-   }
 
    hr.h-color{
      background: #eee;
