@@ -12,13 +12,14 @@
 
         <!--Style´s Files Css-->
         <link rel="stylesheet" href="Css/StyleHome.css">
+        <link rel="stylesheet" href="Css/Sider&Navbar.css">
         <link rel="stylesheet" href="Css/StyleFooter.css">
+        <link rel="stylesheet" href="Css/StyleLogos&Gifs.css">
+        <link rel="stylesheet" href="Css/Buscador.css">
         <link rel="stylesheet" href="Css/Estilos.css">
 
         <link rel="stylesheet" href="./images/Consejo Directivo/">
         <link rel="stylesheet" href="./images/Direcorio/">
-        <link rel="stylesheet" href="./images/Quienes Somos/">
-
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
             <!-- Fonts -->
@@ -73,25 +74,18 @@
                 <nav class="navbar navbar-expand-md navbar-light bg-light">
                     <div class="container-fluid" style="background-color: #fff;">
                         <div class="gifhome">
-                            <a><img src="images/Gif/PROPUESTA2.gif" style="width: 864px; width: 10%;"> </a>
+                            <a><img src="images/Gif/PROPUESTA2.gif" style="width: 864px; width: 13vh;"> </a>
                           </div>
                         <div class="d-flex justify-content-between d-md-none d-block">
-                         <button class="btn px-1 py-0 open-btn me-2"><i class="fal fa-stream"></i></button>
-                            <a class="navbar-brand fs-4" href="#"><img src=" style="height: 7%;"></a>
+                         <button class="btn px-1 py-0 open-btn me-2"><i class="fad fa-bars"></i></button>
+                            <a class="ImgMobile navbar-brand fs-4" href="#"><img src="images/Logo/amda-logo-V2.png"></a>
                            
                         </div>
-                        <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <i class="fal fa-bars"></i>
-                        </button>
+                        <form class="d-flex">
+                            <input class="buscador form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="BtnBuscador btn btn-outline-success" type="submit"><i class="fad fa-search"></i></button>
+                        </form>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                            <div class="buscar">
-                                <i class="fad fa-search"></i>
-                                <input type="text" placeholder="Buscar" required>
-    
-                            </div>
-        
                         </div>
                     </div>
                 </nav> 
@@ -115,9 +109,6 @@
             </div>
         </div>
         
-                    <!-- JS Main -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="js/main.js"></script>
 
     <!--::::Pie de Pagina::::::-->
     <footer class="pie-pagina">
@@ -147,6 +138,11 @@
             <small>&copy; 2022 COPYRIGHT <b>AMDA</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
-    </body>
+    <!--Browser JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+<!-- JS Files -->
+<script src="js/sidebar.js"></script>
 </html>
 

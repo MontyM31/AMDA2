@@ -80,11 +80,7 @@ body{
     
 }
 
-.navbar-brand img{
-    width: 2em;
-    height: 2em;
-    
-}
+
 
 .navbar-var{
     background-color: rgba(0, 0, 0, 0.61);
@@ -92,7 +88,7 @@ body{
     border-radius: 10px;
 }
 
-/*Css*/
+/*Css CARTAS*/
 
 .card-body {
     padding: 1em;
