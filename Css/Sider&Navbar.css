@@ -45,10 +45,6 @@
 
 /*NAVBAR*/
 
-.navbarsb{
-    position: sticky;
-    top: 0;
-  }
-  .navbar-expand-lg .navbar-collapse{
-    height: 0;
-  }
+.navbars{
+    position: top;
+}

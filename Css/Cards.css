@@ -1,0 +1,18 @@
+.card{
+    transition:all .4s cubic-bezier(0.175,0.885,0,1);
+    background-color: #9672A6;
+    position:relative;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 13px 10px -7px rgba(0,0,0,0.1)
+}
+.card:hover{
+    box-shadow:0 30px 18px -8px rgba(0,0,0,0.1)!important;
+    transform:scale(1.10,1.10)!important
+}
+.card__info{
+    z-index:2;background-color:#fff;
+    border-bottom-left-radius:12px;
+    border-bottom-right-radius:12px;
+    padding:16px 24px 24px
+}
