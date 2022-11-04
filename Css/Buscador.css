@@ -13,4 +13,10 @@
 
 .btn-outline-success:hover{
     background-color: #660e80;
+    border-color: #660e80;
+}
+
+.btn-outline-success{
+    color:#660e80;
+    
 }
