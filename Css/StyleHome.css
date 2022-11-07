@@ -2,7 +2,16 @@ body{
     background: #eee;
     transition: all .3s;
    }
-
+body::-webkit-scrollbar{
+  width: 12px;
+  
+}
+body::-webkit-scrollbar-thumb {
+  color: #5a2073;
+  background-color: #5a2073;
+  border-radius: 10px;
+  border-right: 2px solid;
+}
 
   .containersb{
     height: 55px;
