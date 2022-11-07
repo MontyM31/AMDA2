@@ -7,8 +7,8 @@ body::-webkit-scrollbar{
   
 }
 body::-webkit-scrollbar-thumb {
-  color: #5a2073;
-  background-color: #5a2073;
+  color: #e4c9ec;
+  background-color: #e4c9ec;
   border-radius: 10px;
   border-right: 2px solid;
 }
