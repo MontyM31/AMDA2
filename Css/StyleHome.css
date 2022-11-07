@@ -3,7 +3,7 @@ body{
     transition: all .3s;
    }
 body::-webkit-scrollbar{
-  width: 12px;
+  width: 10px;
   
 }
 body::-webkit-scrollbar-thumb {
