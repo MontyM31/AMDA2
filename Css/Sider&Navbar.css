@@ -8,6 +8,7 @@
 .content{
     min-height: 100vh;
     width: 100%;
+    flex-wrap: wrap;
  }   
 
  .sidebar li.active :hover{

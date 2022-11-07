@@ -9,7 +9,8 @@ body{
   }
   
    .bg-light{
-    height: 80px;
+    height: 95px;
+    background-color: #fff!important;
    }
    .pt-4 {
     background-color: #fff;
