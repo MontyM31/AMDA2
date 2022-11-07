@@ -194,3 +194,9 @@ body{
     text-align: center;
     color: #D9D2C5;
 }
+
+p::selection {
+    background: #e4c9ec;
+    color: #fff;
+    
+}
