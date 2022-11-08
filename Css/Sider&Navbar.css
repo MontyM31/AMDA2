@@ -48,5 +48,5 @@
 
 .navbars{
     position: sticky;
-
+    top: 0;
 }
