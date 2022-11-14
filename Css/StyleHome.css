@@ -13,6 +13,12 @@ body::-webkit-scrollbar-thumb {
   border-right: 2px solid;
 }
 
+.ImagenesHome img{
+  height: 33vh;
+  position: relative;
+}
+
+
   .containersb{
     height: 55px;
   }
@@ -34,7 +40,3 @@ body::-webkit-scrollbar-thumb {
      background: #eee;
    }
   
-
-   
-
-   
